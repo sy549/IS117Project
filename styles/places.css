@@ -1,0 +1,21 @@
+/*DEVELOPER: Sayali Yadav, IS117-003, Fall 2023*/
+
+/* Style to make the image float to the right */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding: 10px;
+}
+
+.image {
+    flex: 1;
+    padding: 10px;
+}
+section{
+    background-color: blanchedalmond;
+}

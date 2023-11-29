@@ -1,0 +1,17 @@
+/* DEVELOPER: Sayali Yadav, IS117-003, Fall 2023 */
+
+/*styles for the entire recipe page*/
+.recipe-content {
+    display: flex;
+    align-items: center;
+}
+
+.recipe-content img {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+header h1{
+    font-family:Arial;
+}
+ol{
+    background-color: blanchedalmond;
+}

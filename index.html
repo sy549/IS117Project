@@ -1,0 +1,188 @@
+<!-- DEVELOPER: Sayali Yadav, IS117-003, Fall 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Rasoi :The many flavours of India</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5v5z+dLgxZcQIxBdRDYUfZmAkR" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javacript/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+</head>
+<body>
+<header>
+    <div class="d-flex align-items-center">
+        <a href="index.html">
+            <img src="images/website%20rasoi%20logo.jpeg" alt="Website logo" height="150">
+        </a>
+        <div class="ml-2">
+            <h1><i><b>Rasoi: The many flavours of India</b></i></h1>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuisine History</a>
+                    <!-- Sub-menu for Cuisine History -->
+                    <ul class="submenu dropdown-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="North indian history.html">North Indian</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="South indian history.html">South Indian</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+                    <!-- Sub-menu for Recipes -->
+                    <ul class="submenu dropdown-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="north indian.html">North Indian Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="south%20Indian.html">South Indian Recipes</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="places.html">Recommended Places</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    </nav>
+    </nav>
+
+</header>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <img src="images/jumbotron.png" class="img-fluid" alt="Food image">
+    </div>
+</div>
+
+<section>
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card" style="height: 400px">
+                <img width =" 200" src="https://4.bp.blogspot.com/-1NtNY3PD00E/Wivto6aU7xI/AAAAAAAAMXk/TsAw0BiOr_wNhF5eyt_8LHk4J_A1Sp7OQCLcBGAs/s1600/north-india-new%2Bcopy.png" class="card-img-top" alt="North India image"  width="200" >
+                <div class="card-body">
+                    <h2 class="card-title">North Indian Cuisine History</h2>
+                    <p class="card-text">Read through a brief history of the rich cultural context about the origin of different North Indian dishes.</p>
+                    <a href="North indian history.html" class="btn btn-secondary">View Recipes &raquo;</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card" style="height: 400px">
+                <img src="images/south india.png" class="card-img-top" alt="South India image" width="100">
+                <div class="card-body">
+                    <h2 class="card-title">South Indian Cuisine History</h2>
+                    <p class="card-text">Read through a brief history of the immensely diverse South Indian dishes. </p>
+                    <a href="South indian history.html" class="btn btn-secondary">View Recipes &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="height: 400px">
+                <img src="images/dosa.jpeg" alt="food picture" width="350">
+                <div class="card-body">
+                    <p>In the search for finding some new comfort food? If yes, then click below!</p>
+                    <p><a class="btn btn-secondary" href="south Indian.html" role="button">View Recipes &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card" style="height: 400px">
+                <img src="images/lacha paratha.jpeg" alt="food picture" width="350">
+                <div class="card-body">
+                    <p>Do you got the courage to try some of the  spiciest food in the history of mankind?If yes, these click below!</p>
+                    <p><a class="btn btn-secondary" href="north indian.html" role="button">View Recipes &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <br>
+<div class="container">
+    <div class="row">
+        <div class="card mb-4">
+            <div class="col-md-6">
+                <h2 class="card-title">Recommended Places</h2>
+                <div class="card-body">
+                <p>Some recommended places to try out some Indian food</p>
+                <p><a class="btn btn-secondary" href="places.html" role="button">Learn more &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="col-md-4">
+                <h2 class="card-title">Subscribe to our newsletter</h2>
+                <div class="card-body">
+                <p>Stay up-to-date about the latest Indian recipies, culture, traditions and much more by joining our monthly newsletter today </p>
+                <p><a class="btn btn-secondary" href="contact.html" role="button">Learn more &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<hr>
+
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Sayali Yadav, 2023 |  Terms Of Use  |  Privacy Statement </span>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMp9Mvc9y3Gw7+A854Nt0G+KCjD1Hm7DZF/ZkD+mMn3Cu0c1ZTlf0pjG"></script>
+
+
+</body>
+</html>

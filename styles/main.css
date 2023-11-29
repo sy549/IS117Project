@@ -1,0 +1,79 @@
+/*DEVELOPER: Sayali Yadav, IS117-003, Fall 2023 */
+
+/*root element*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial ";
+}
+html {
+    background-color: white;
+}
+/*style for the logo and title*/
+header{
+    background-color: lightpink;
+    font-family: Arial;
+}
+header h1{
+    font-family:Arial;
+}
+/*style for the footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+}
+
+
+/* style for the jumbotron */
+.jumbotron {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dnorth%2Bindian%2Bfood&psig=AOvVaw2ZyQ6ClY_ursgjcx7Zfd21&ust=1700889229772000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC_w6Tw24IDFQAAAAAdAAAAABAE");
+    background-size: 100% 100%; /* Updated property to cover */
+    background-position: 500%;
+    height: 500px;
+    display: flex;
+    align-items: center; /* Vertically align content in the center */
+    background-color: lightpink;
+
+}
+
+.jumbotron .container {
+    text-align: center; /* Center text content */
+}
+
+.jumbotron img {
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+section {
+    /* Custom CSS for image resizing */
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    width: 500px; /* set your desired width */
+    margin: 20px;
+}
+
+.card-body {
+    width: 100%; /* inherit width from card */
+    height: 200px; /* set your desired height */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto; /* enable scrolling if content overflows */
+}
+ol{
+    background-color: blanchedalmond;
+}
